@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div className=" w-[95%] md:w-[80%] lg:w-[1170px] mx-auto rounded-xl grid grid-cols-4 flex">
           {/* logo */}
           <div className="text-[#444444] flex items-center justify-start">
-            <h1 className=" font-bold text-[40px]">RVH</h1>
+            <h1 className=" font-bold text-[40px]">WMJ</h1>
           </div>
 
           {/* desktop version */}
