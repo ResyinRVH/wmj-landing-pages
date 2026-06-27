@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+#root {
+background-color: white;
+
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #444444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeDown {
+  animation: fadeDown 0.8s ease forwards;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
