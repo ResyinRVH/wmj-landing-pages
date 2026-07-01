@@ -5,10 +5,10 @@ export const Hero = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="w-[95%] md:w-[80%] lg:w-[1170px] h-100 rounded-xl bg-linear-to-r from-[#FFD900] from-[50%] to-[#FF3700] flex items-center">
-          <div className="w-120 text-left px-20 ">
-            <p className="animate-fadeDown">
-              Menerima Pesanan: Tahlilan, Syukuran, Arisan, Rapat, Aacara
+        <div className="w-[90%] max-w-[1170px] h-100 rounded-xl bg-linear-to-r from-[#FFD900] from-[50%] to-[#FF3700] flex items-center">
+          <div className="w-120 text-left px-10 md:px-20 ">
+            <p className="animate-fadeRight ">
+              Menerima Pesanan: Tahlilan, Syukuran, Arisan, Rapat, Acara
               Keluarga, dll.
             </p>
             <div className="w-40 h-10 mt-5 rounded-full bg-[#FF3700] font-bold text-sm text-white flex items-center justify-center cursor-pointer shadow-lg shadow-[#FF3700]/40 hover:bg-[#C82B00] hover:zoom-101">
@@ -18,7 +18,7 @@ export const Hero = () => {
             </div>
           </div>
           <div></div>
-          <div className="justify-end px-20 flex items-center">
+          <div className="hidden md:flex justify-end px-20 flex items-center">
             <img src={Soto} alt="Soto" className="w-[350px] object-cover transition-transform duration-700 ease-in-out hover:rotate-[360deg]" />
           </div>
         </div>

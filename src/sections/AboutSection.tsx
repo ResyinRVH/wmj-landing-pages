@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <>
       <div className="flex justify-center pt-10">
-        <div className="w-[95%] md:w-[80%] lg:w-[1170px] h-120 flex gap-x-6 flex justify-between">
+        <div className="w-[90%] max-w-[1170px] h-120 flex gap-x-6 flex justify-between">
           {/* kiri */}
           <div className="w-1/2 flex flex-col">
             <div className="font-bold text-[30px] flex justify-left py-10">

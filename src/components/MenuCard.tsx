@@ -34,10 +34,10 @@ export const MenuCard = ({
       <div
         ref={cardRef}
         id="CardMenu"
-        className="opacity-0 w-[280px] h-74 rounded-xl bg-[#FFD900] p-[20px] shadow-lg shadow-[#BFA200]/50"
+        className="opacity-0 w-full h-77 md:h-74 rounded-xl bg-[#FFD900] p-[20px] shadow-md md:shadow-lg shadow-[#BFA200]/50 hover:zoom-101"
       >
         <div className="h-5 flex justify-end">
-          <div className="w-35 h-5 bg-[#FF3700] rounded-md text-[9px] flex items-center justify-center font-bold text-white">
+          <div className="w-40 md:w-35 h-5 bg-[#FF3700] rounded-md text-[9px] flex items-center justify-center font-bold text-white">
             <p>{promo}</p>
           </div>
         </div>

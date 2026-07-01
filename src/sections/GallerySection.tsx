@@ -8,7 +8,7 @@ export const Gallery = () => {
         <h1>Galeri</h1>
       </div>
       <div className="flex justify-center">
-        <div className="w-[95%] md:w-[80%] lg:w-[1170px] h-74 rounded-xl flex bg-black">
+        <div className="w-[90%] max-w-[1170px] h-74 rounded-xl flex bg-black">
             <GalleryCard/>
         </div>
       </div>

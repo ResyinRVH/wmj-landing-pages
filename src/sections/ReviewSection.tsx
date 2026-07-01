@@ -9,7 +9,7 @@ export const Review = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="w-[95%] md:w-[80%] lg:w-[1170px] h-60 flex w-screen gap-y-2 gap-x-6 overflow-y-auto hide-scrollbar">
+        <div className="w-[90%] max-w-[1170px] h-60 flex w-screen gap-y-2 gap-x-6 overflow-y-auto hide-scrollbar">
           <div className="w-1/2 flex flex-col gap-3 px-2 py-2">
             <ReviewCard
             nama="Resyin RVH"

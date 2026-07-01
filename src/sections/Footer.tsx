@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <>
       <div className="w-full h-35 bg-[#444444] flex justify-center">
-        <div className="w-[95%] md:w-[80%] lg:w-[1170px] h-35 flex text-white">
+        <div className="w-[90%] max-w-[1170px] h-35 flex text-white">
           {/* kiri */}
           <div className="w-1/2 flex flex-col">
             <div className="text-left py-10">
