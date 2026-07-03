@@ -13,12 +13,12 @@ export const Review = () => {
           <div className="w-1/2 flex flex-col gap-3 px-2 py-2">
             <ReviewCard
             nama="Resyin RVH"
-            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sanagat recomended untuk tahlilan"
+            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={3}
             />
             <ReviewCard
             nama="Resyin RVH"
-            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sanagat recomended untuk tahlilan"
+            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={5}
             />
             
@@ -26,12 +26,12 @@ export const Review = () => {
           <div className="w-1/2 flex flex-col gap-3 px-2 py-2">
             <ReviewCard
             nama="Resyin RVH"
-            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sanagat recomended untuk tahlilan"
+            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={3}
             />
             <ReviewCard
             nama="Resyin RVH"
-            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sanagat recomended untuk tahlilan"
+            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={4}
             />
           </div>

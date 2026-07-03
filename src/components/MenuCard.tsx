@@ -34,7 +34,7 @@ export const MenuCard = ({
       <div
         ref={cardRef}
         id="CardMenu"
-        className="opacity-0 w-full h-77 md:h-74 rounded-xl bg-[#FFD900] p-[20px] shadow-md md:shadow-lg shadow-[#BFA200]/50 hover:zoom-101"
+        className="opacity-0 w-full h-77 md:h-74 rounded-xl bg-white border-4 border-[#FFD900] p-[20px] shadow-md md:shadow-lg shadow-black/10 hover:zoom-101"
       >
         <div className="h-5 flex justify-end">
           <div className="w-40 md:w-35 h-5 bg-[#FF3700] rounded-md text-[9px] flex items-center justify-center font-bold text-white">
@@ -52,7 +52,7 @@ export const MenuCard = ({
           <p className="text-[12px]">{deskripsi}</p>
         </div>
 
-        <div className="w-full h-[40px] rounded-md flex items-center justify-center bg-white">
+        <div className="w-full h-[40px] rounded-md flex items-center justify-center bg-[#FFD900]">
           <p className="text-sm ">{harga}</p>
         </div>
       </div>

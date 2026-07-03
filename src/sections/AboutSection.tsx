@@ -4,7 +4,7 @@ import { Map } from "../components/Location";
 export const About = () => {
   return (
     <>
-      <div className="flex justify-center pt-10">
+      <div className="flex justify-center">
         <div className="w-[90%] max-w-[1170px] h-120 flex gap-x-6 flex justify-between">
           {/* kiri */}
           <div className="w-1/2 flex flex-col">

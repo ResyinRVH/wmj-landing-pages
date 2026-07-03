@@ -3,7 +3,7 @@ import "../App.css";
 export const Footer = () => {
   return (
     <>
-      <div className="w-full h-35 bg-[#444444] flex justify-center">
+      <div className="w-full h-35 bg-[#444444] flex justify-center mt-10">
         <div className="w-[90%] max-w-[1170px] h-35 flex text-white">
           {/* kiri */}
           <div className="w-1/2 flex flex-col">

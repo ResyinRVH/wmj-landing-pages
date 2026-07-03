@@ -4,9 +4,9 @@ import Soto from "../assets/Soto.png";
 export const Hero = () => {
   return (
     <>
-      <div className="flex items-center justify-center">
-        <div className="w-[90%] max-w-[1170px] h-100 rounded-xl bg-linear-to-r from-[#FFD900] from-[50%] to-[#FF3700] flex items-center">
-          <div className="w-120 text-left px-10 md:px-20 ">
+      <div className="flex items-center justify-center ">
+        <div className="w-[90%] max-w-[1170px] h-100 rounded-xl bg-radial-[at_75%_50%] from-[#FFEA72] to-[#FFD900] to-70% flex items-center ">
+          <div className="w-120 text-left px-10 md:px-20">
             <p className="animate-fadeRight ">
               Menerima Pesanan: Tahlilan, Syukuran, Arisan, Rapat, Acara
               Keluarga, dll.

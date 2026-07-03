@@ -37,7 +37,7 @@ export const Navbar = () => {
                   <li
                     key={idx}
                     className={`px-4 lg:px-4 py-3 lg:py-4 hover:text-[#FF3700] cursor-pointer ${
-                      idx === 0 ? "border-r-2 border-[#444444] font-bold " : ""
+                      idx === 0 ? "border-r border-[#444444] font-bold " : ""
                     }`}
                   >
                     <a href={link.href}>{link.label}</a>
@@ -58,7 +58,7 @@ export const Navbar = () => {
           </div>
 
           <div
-            className={`fixed inset-0 bg-white z-40 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out md:hidden ${
+            className={`fixed inset-0 bg-[#FFD900] z-40 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out md:hidden ${
               isOpen ? "translate-x-0" : "translate-x-full"
             }`}
           >

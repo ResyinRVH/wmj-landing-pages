@@ -38,13 +38,13 @@ export const Order = () => {
   };
 
   const inputClass =
-    "w-full h-[40px] ml-10 mr-10 mb-4 px-10 rounded-xl bg-white text-black outline-none justify-start items-center";
+    "w-full h-[40px] ml-10 mr-10 mb-4 px-10 rounded-xl border  bg-white text-black outline-none justify-start items-center";
 
   return (
     <>
       <div className="flex justify-center pt-10">
-        <div className="w-[90%] max-w-[1170px] h-95 md:h-67 rounded-xl bg-[#444444]">
-          <div className="w-full h-20 text-white text-[30px] py-10 md:py-10 px-6 md:px-10 font-bold flex justify-start">
+        <div className="w-[90%] max-w-[1170px] h-95 md:h-67 rounded-xl bg-white shadow-lg shadow-black/10">
+          <div className="w-full h-20 text-[30px] py-10 md:py-10 px-6 md:px-10 font-bold flex justify-start">
             <h1>Form Pemesanan</h1>
           </div>
 
@@ -94,7 +94,7 @@ export const Order = () => {
 
               <button
                 onClick={handleWhatsapp}
-                className="w-70 h-[40px] px-5 rounded-xl bg-[#FFD900] font-bold shadow-md hover:bg-[#69FF5E] transition-colors hover:zoom-101"
+                className="w-70 h-[40px] px-5 rounded-xl bg-[#444444] font-bold text-white shadow-md hover:bg-[#FF3700] transition-colors hover:zoom-101"
               >
                 Pesan Via Whatsapp
               </button>
@@ -151,7 +151,7 @@ export const Order = () => {
 
             <button
               onClick={handleWhatsapp}
-              className="w-[330px] h-[40px] ml-5 rounded-xl bg-[#FFD900] font-bold shadow-md hover:bg-[#69FF5E] transition-colors"
+              className="w-[330px] h-[40px] ml-5 rounded-xl bg-[#FFD900] font-bold shadow-md hover:bg-[#FF3700] transition-colors"
             >
               Pesan Via Whatsapp
             </button>
