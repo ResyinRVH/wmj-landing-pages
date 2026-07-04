@@ -34,10 +34,10 @@ export const MenuCard = ({
       <div
         ref={cardRef}
         id="CardMenu"
-        className="opacity-0 w-full h-77 md:h-74 rounded-xl bg-white border-4 border-[#FFD900] p-[20px] shadow-md md:shadow-lg shadow-black/10 hover:zoom-101"
+        className="opacity-0 w-full h-auto md:h-74 rounded-xl bg-white border-4 border-[#FFD900] p-3 sm:p-4 md:p-5 shadow-md md:shadow-lg shadow-black/10 hover:zoom-101"
       >
         <div className="h-5 flex justify-end">
-          <div className="w-40 md:w-35 h-5 bg-[#FF3700] rounded-md text-[9px] flex items-center justify-center font-bold text-white">
+          <div className="w-35 h-5 bg-[#FF3700] rounded-md text-[8px] sm:text-[9px] flex items-center justify-center font-bold text-white">
             <p>{promo}</p>
           </div>
         </div>
@@ -47,12 +47,16 @@ export const MenuCard = ({
           alt={altText}
           className="w-30 h-30 object-cover mx-auto mt-4 mb-4 transition-transform duration-700 ease-in-out hover:rotate-[360deg]"
         />
-        <div className="w-full h-10 text-left mb-4">
+        <div className="w-full h-15 text-left mb-4">
           <p className="font-bold">{namaMenu}</p>
-          <p className="text-[12px]">{deskripsi}</p>
+          <p className="text-[11px] sm:text-xs md:text-sm leading-relaxed">
+            {deskripsi}
+          </p>
         </div>
 
-        <div className="w-full h-[40px] rounded-md flex items-center justify-center bg-[#FFD900]">
+        <div
+          className="w-full h-9 sm:h-10 rounded-md flex items-center justify-center bg-[#FFD900]"
+        >
           <p className="text-sm ">{harga}</p>
         </div>
       </div>

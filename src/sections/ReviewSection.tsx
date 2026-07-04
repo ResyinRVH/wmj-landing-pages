@@ -9,32 +9,29 @@ export const Review = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="w-[90%] max-w-[1170px] h-60 flex w-screen gap-y-2 gap-x-6 overflow-y-auto hide-scrollbar">
-          <div className="w-1/2 flex flex-col gap-3 px-2 py-2">
-            <ReviewCard
+        <div className="w-[90%] max-w-[1170px] h-60 flex gap-y-2 gap-x-4 overflow-x-auto hide-scrollbar">
+          
+          <ReviewCard
             nama="Resyin RVH"
-            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
+            ulasan="Makanannya enak, lengkap, dan tinggal terima jadi tanpa perlu cuci piring ketika dikembalikan, sangat recomended untuk tahlilan"
             rating={3}
-            />
-            <ReviewCard
+          />
+          <ReviewCard
             nama="Resyin RVH"
             ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={5}
-            />
-            
-          </div>
-          <div className="w-1/2 flex flex-col gap-3 px-2 py-2">
-            <ReviewCard
+          />
+
+          <ReviewCard
             nama="Resyin RVH"
             ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={3}
-            />
-            <ReviewCard
+          />
+          <ReviewCard
             nama="Resyin RVH"
             ulasan="Makanannya enak, lengkap, dan tinggal terima jadi, sangat recomended untuk tahlilan"
             rating={4}
-            />
-          </div>
+          />
         </div>
       </div>
     </>

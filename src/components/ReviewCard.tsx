@@ -4,22 +4,22 @@ import type { ReviewCardProps } from "../types/Review";
 export const ReviewCard = ({ nama, ulasan, rating }: ReviewCardProps) => {
   return (
     <>
-      <div className="w-full  rounded-xl bg-[#FFD900] p-[10px] shadow-lg shadow-[#444444]/20">
-        <div className="w-full h-10 flex items-center justify-between">
+      <div className="w-[90%] h-50 shrink-0 rounded-xl bg-[#FFD900] p-4 shadow-lg shadow-[#444444]/20 ">
+        <div className="w-full text-md text-left flex justify-between">
           <h3 className="font-bold">{nama}</h3>
           <div className="flex">
             {[1, 2, 3, 4, 5].map((star) => (
               <span
                 key={star}
-                className={`text-[25px] ${star <= rating ? "text-[#444444]" : "text-white"}`}
+                className={`text-sm] ${star <= rating ? "text-[#444444]" : "text-white"}`}
               >
                 ★
               </span>
             ))}
           </div>
         </div>
-        <div className="w-full flex justify-start">
-          <p className="text-left text-sm">
+        <div className="w-full flex justify-start mt-4">
+          <p className="text-justify text-sm">
             {ulasan}
           </p>
         </div>

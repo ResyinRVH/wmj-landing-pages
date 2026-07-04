@@ -5,14 +5,14 @@ export const About = () => {
   return (
     <>
       <div className="flex justify-center">
-        <div className="w-[90%] max-w-[1170px] h-120 flex gap-x-6 flex justify-between">
-          {/* kiri */}
-          <div className="w-1/2 flex flex-col">
-            <div className="font-bold text-[30px] flex justify-left py-10">
+        <div className="w-[90%] max-w-[1170px] ">
+
+          <div className="w-full">
+            <div className="font-bold text-3xl flex justify-left py-10">
               <h1>Tentang Kami</h1>
             </div>
 
-            <div className="flex justify-left  text-justify">
+            <div className="flex text-sm text-justify">
               <p>
                 Selamat datang di Warung Masakan Jawa, Kami hadir untuk
                 menghadirkan hidangan Rawon dan Soto Daging yang telah menjadi
@@ -24,19 +24,19 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="font-bold text-[30px] flex justify-left py-10">
+            <div className="font-bold text-left text-3xl py-10">
               <h1>Kontak</h1>
             </div>
 
-            <div className="flex justify-left  text-justify">
+            <div className="flex text-sm text-justify">
               <p>Alamat : Pasar Peterongan, Jombang, Jawa Timur, Indonesia <br></br> Whatsapp : 0815-1513-5870
               </p>
             </div>
 
           </div>
 
-          {/* kanan */}
-          <div className="w-1/2 flex flex-col flex items-center justify-center">
+
+          <div className="w-full mt-10">
             <Map />
           </div>
         </div>

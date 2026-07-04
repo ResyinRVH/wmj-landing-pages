@@ -3,19 +3,19 @@ import "../App.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Navbar = () => {
-  const [isOpen, setIsOpne] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const closeMenu = () => setIsOpne(false);
+  const closeMenu = () => setIsOpen(false);
   const toggleMenu = () => {
-    setIsOpne(!isOpen);
+    setIsOpen(!isOpen);
   };
 
   const navLinks = [
     { label: "Beranda", href: "#hero" },
     { label: "Menu", href: "#menu" },
     { label: "Galeri", href: "#gallery" },
-    { label: "Kontak", href: "#tentang" },
-    { label: "Tentang", href: "#tentang" },
+    { label: "Kontak", href: "#about" },
+    { label: "Tentang", href: "#about" },
   ];
 
   return (

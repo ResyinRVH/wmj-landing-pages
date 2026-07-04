@@ -11,20 +11,24 @@ import { Footer } from "./sections/Footer";
 function App() {
   return (
     <>
-      <section id="hero"></section>
-      <Navbar />
-      <Hero />
+      <section id="hero">
+        <Navbar />
+        <Hero />
+      </section>
+
       <section id="menu">
         <Menu />
       </section>
+
       <Order />
+
       <section id="gallery">
         <Gallery />
       </section>
 
       <Review />
 
-      <section id="tentang">
+      <section id="about">
         <About />
       </section>
 

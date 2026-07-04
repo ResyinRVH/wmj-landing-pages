@@ -38,7 +38,7 @@ export const Order = () => {
   };
 
   const inputClass =
-    "w-full h-[40px] ml-10 mr-10 mb-4 px-10 rounded-xl border  bg-white text-black outline-none justify-start items-center";
+    "w-full h-10 px-4 rounded-xl border bg-white text-black outline-none justify-start items-center";
 
   return (
     <>
@@ -48,10 +48,8 @@ export const Order = () => {
             <h1>Form Pemesanan</h1>
           </div>
 
-          {/* Desktop : 2 kolom */}
-          <div className="hidden md:flex gap-20">
-            {/* kolom kiri */}
-            <div className="flex flex-col gap-1 w-full md:w-1/2 ">
+          <div className="pt-10 px-5 text-xs md:flex">
+            <div className="flex flex-col gap-3 w-full md:w-1/2">
               <input
                 placeholder="Nama Lengkap"
                 type="text"
@@ -66,95 +64,45 @@ export const Order = () => {
                 onChange={(e) => setAlamat(e.target.value)}
                 className={inputClass}
               />
-              <input
-                placeholder="Tanggal Acara"
-                type="date"
-                value={tanggal}
-                onChange={(e) => setTanggal(e.target.value)}
-                className={inputClass}
-              />
-            </div>
+              <div className="flex columns-2">
+                <div className="mr-3">
+                  <input
+                    placeholder="Tanggal Acara"
+                    type="date"
+                    value={tanggal}
+                    onChange={(e) => setTanggal(e.target.value)}
+                    className={inputClass}
+                  />
+                </div>
 
-            {/* Box Form Kanan */}
-            <div className="flex flex-col gap-1 w-1/2 items-center px-10">
-              <input
-                placeholder="Jumlah Order"
-                type="text"
-                value={jumlah}
-                onChange={(e) => setJumlah(e.target.value)}
-                className={inputClass}
-              />
-              <input
+                <select
+                  value={jumlah}
+                  onChange={(e) => setJumlah(e.target.value)}
+                  className={`${inputClass} appearance-none`}
+                >
+                  <option value="">Jumlah Porsi</option>
+                  <option value="50">50 Porsi</option>
+                  <option value="100">100 Porsi</option>
+                  <option value="150">150 Porsi</option>
+                  <option value="200">200 Porsi</option>
+                  <option value="Custom">Custom</option>
+                </select>
+              </div>
+
+              <textarea
                 placeholder="Catatan"
-                type="text"
                 value={catatan}
                 onChange={(e) => setCatatan(e.target.value)}
-                className={inputClass}
+                className={`${inputClass} py-3 resize-none hide-scrollbar`}
               />
 
               <button
                 onClick={handleWhatsapp}
-                className="w-70 h-[40px] px-5 rounded-xl bg-[#444444] font-bold text-white shadow-md hover:bg-[#FF3700] transition-colors hover:zoom-101"
+                className="w-70 h-[40px] px-5 rounded-xl bg-[#FFD900] font-bold shadow-md hover:bg-[#FF3700] hover:text-white transition-colors hover:zoom-101"
               >
                 Pesan Via Whatsapp
               </button>
             </div>
-          </div>
-
-          {/* mobile */}
-          <div className="flex md:hidden flex-col gap-4 justify-start px-1 text-[12px]">
-            <input
-              placeholder="Nama Lengkap"
-              type="text"
-              value={nama}
-              onChange={(e) => setNama(e.target.value)}
-              className="w-[330px] h-[40px] px-5 ml-5 rounded-xl bg-white text-black outline-none"
-            />
-            <input
-              placeholder="Alamat Acara"
-              type="text"
-              value={alamat}
-              onChange={(e) => setNama(e.target.value)}
-              className="w-[330px] h-[40px] px-5 ml-5 rounded-xl bg-white text-black outline-none"
-            />
-
-            <div className="flex  justify-between">
-              <input
-                placeholder="Tanggal Acara"
-                type="date"
-                value={tanggal}
-                onChange={(e) => setTanggal(e.target.value)}
-                className="w-[150px] h-[40px] px-5 ml-5 rounded-xl bg-white  outline-none"
-              />
-              <select
-                value={jumlah}
-                onChange={(e) => setJumlah(e.target.value)}
-                className="w-[150px] h-[40px] px-5 mr-6 rounded-xl bg-white outline-none"
-              >
-                <option value="" disabled>
-                  Jumlah Porsi
-                </option>
-                <option value="50 Porsi">50 Porsi</option>
-                <option value="100 Porsi">100 Porsi</option>
-                <option value="150 Porsi">150 Porsi</option>
-                <option value="200 Porsi">200 Porsi</option>
-                <option value="Custom">Custom</option>
-              </select>
-            </div>
-
-            <input
-              placeholder="Catatan"
-              value={catatan}
-              onChange={(e) => setCatatan(e.target.value)}
-              className="w-[330px] h-[40px] px-5 ml-5 rounded-xl bg-white text-black outline-none"
-            />
-
-            <button
-              onClick={handleWhatsapp}
-              className="w-[330px] h-[40px] ml-5 rounded-xl bg-[#FFD900] font-bold shadow-md hover:bg-[#FF3700] transition-colors"
-            >
-              Pesan Via Whatsapp
-            </button>
           </div>
         </div>
       </div>
