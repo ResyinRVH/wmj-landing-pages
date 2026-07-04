@@ -36,7 +36,7 @@ export const About = () => {
           </div>
 
 
-          <div className="w-full mt-10">
+          <div className="w-full flex justify-center items-center mt-10">
             <Map />
           </div>
         </div>
