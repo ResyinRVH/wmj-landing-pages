@@ -16,14 +16,13 @@ export const Order = () => {
 
     const nomorWA = "6281515135870";
 
-    const pesan = `
-  Halo Warung Masakan Jawa, saya ingin memesan.
+    const pesan = `Halo Warung Masakan Jawa, saya ingin memesan.
 
-  Nama Lengkap: ${nama}
-  Aalamat Acara: ${alamat}
-  Tanggal Acara: ${tanggal}
-  Jumlah Order: ${jumlah}
-  Catatan: ${catatan}
+Nama Lengkap: ${nama}
+Alamat Acara: ${alamat}
+Tanggal Acara: ${tanggal}
+Jumlah Order: ${jumlah}
+Catatan: ${catatan}
   `;
 
     const url = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
