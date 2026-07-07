@@ -4,7 +4,7 @@ import type { ReviewCardProps } from "../types/Review";
 export const ReviewCard = ({ nama, ulasan, rating }: ReviewCardProps) => {
   return (
     <>
-      <div className="w-[90%] h-50 shrink-0 rounded-xl bg-[#FFD900] p-4 shadow-lg shadow-[#444444]/20 ">
+      <div className="w-[90%] md:w-full h-50 shrink-0 md:shrink rounded-xl bg-[#FFD900] p-4 shadow-lg shadow-[#444444]/20 ">
         <div className="w-full text-md text-left flex justify-between">
           <h3 className="font-bold">{nama}</h3>
           <div className="flex">

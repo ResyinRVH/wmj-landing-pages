@@ -34,7 +34,7 @@ export const MenuCard = ({
       <div
         ref={cardRef}
         id="CardMenu"
-        className="opacity-0 w-full h-auto md:h-74 rounded-xl bg-white border-4 border-[#FFD900] p-3 sm:p-4 md:p-5 shadow-md md:shadow-lg shadow-black/10 hover:zoom-101"
+        className="opacity-0 w-full h-auto rounded-xl bg-white border-4 border-[#FFD900] p-3 sm:p-4 md:p-5 shadow-md md:shadow-lg shadow-black/10 hover:zoom-101"
       >
         <div className="h-5 flex justify-end">
           <div className="w-35 h-5 bg-[#FF3700] rounded-md text-[8px] sm:text-[9px] flex items-center justify-center font-bold text-white">

@@ -3,24 +3,26 @@ import "../App.css";
 export const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[#444444] px-4 mt-10">
-        <div className="w-[90%] max-w-[1170px] text-white">
-    
+      <footer className="w-full bg-[#444444] px-4 mt-10 md:flex md:justify-center">
+        <div className="w-[90%] max-w-[1170px] md:grid md:grid-cols-2 text-white">
           <div className="md:w-1/2 md:flex md:flex-col">
             <div className="text-left mt-4">
               <h1 className="font-bold text-xl">Warung Masakan Jawa</h1>
               <ul>
                 <li>
-                  <a href="#tentang" className="text-sm hover:text-[#FF3700]">Hubungi kami</a>
+                  <a href="#tentang" className="text-sm hover:text-[#FF3700]">
+                    Hubungi kami
+                  </a>
                 </li>
                 <li>
-                  <a href="#tentang" className="text-sm  hover:text-[#FF3700]">Tentang kami</a>
+                  <a href="#tentang" className="text-sm  hover:text-[#FF3700]">
+                    Tentang kami
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
 
-         
           <div className="py-4 md:w-1/2 md:flex md:flex-col">
             <div className="text-left">
               <h1 className="font-bold text-xl">Jam Buka</h1>
@@ -28,7 +30,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
 
       <div className="w-full h-10 bg-[#444444] text-white text-sm flex justify-center items-center">
         <p>© 2026 Warung Masakan Jawa</p>
