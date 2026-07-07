@@ -40,7 +40,7 @@ export const Menu = () => {
   ];
   return (
     <>
-      <div className="font-bold py-5 text-[30px]">
+      <div className="font-bold py-10 text-[30px]">
         <h1>Menu</h1>
       </div>
 

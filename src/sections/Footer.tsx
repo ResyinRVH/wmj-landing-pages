@@ -31,7 +31,6 @@ export const Footer = () => {
           </div>
         </div>
       </footer>
-
       <div className="w-full h-10 bg-[#444444] text-white text-sm flex justify-center items-center">
         <p>© 2026 Warung Masakan Jawa</p>
       </div>
